@@ -1,0 +1,75 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.step {
+  padding-left: 20px;
+}
+
+.calc {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.results-header {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.results-calcs {
+
+}
+
+.scratch-box {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+.playtype-box {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+.scratch-p {
+  margin: 0;
+}
+
+input {
+  margin-right: 10px;
+}
+
+.error-p {
+  color: red;
+  font-weight: bold;
+}
+
+select {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+  margin-right: 10px;
+}
